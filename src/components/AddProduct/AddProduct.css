@@ -1,0 +1,17 @@
+input{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+form{
+    width: 400px;
+    margin:50px  auto;
+    background-color: rgb(238, 236, 234);
+    padding: 50px;
+    border-radius: 20px;
+}
+form span {
+    color: red;
+}

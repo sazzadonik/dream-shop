@@ -1,0 +1,83 @@
+
+/* .LoginContainer{
+    padding-bottom: 20px;
+    border-radius: 10px;
+    width: 50% !important;
+    height: 200px;
+    background-color: aquamarine !important;
+    margin: 100px; */
+    /* overflow: hidden;
+ } */
+ 
+ .LogInGoogle button {
+     max-width: 400px;
+     width: 90%;
+     padding: 5px;
+     border-radius: 20px;
+     border: 2px solid rgb(48, 45, 45);
+     margin: auto;
+     display: block;
+     margin-bottom: 50px;
+     color: black;
+     cursor: pointer;
+ }
+ /* .LogInGoogle button:visited {
+    border-radius: 20px;
+    border: 2px solid rgb(48, 45, 45);
+  } */
+  
+  /* .LogInGoogle button:active {
+    border-radius: 20px;
+     border: 2px solid rgb(48, 45, 45);
+  } */
+button img{
+    float: left;
+}
+
+button p{
+    margin: 0;
+    float: right;
+    margin-right: 50px;
+    margin-top: 2px;
+    color: black;
+}
+
+@media(max-width:650px) 
+{
+    .LoginContainer{
+        width: 90% !important;
+     }
+    .LogInGoogle button{
+        
+    /* max-width: 90%; */
+    width: 90%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin: 20px auto;
+    display: block;
+    }
+
+    
+}
+
+
+
+@media(max-width:240px) 
+{
+    .LogInGoogle button{
+        width: 95%;
+    }
+
+    button p{
+     
+        margin-right: 20px;
+       
+    }
+}
+
+
+.LogInGoogle h2{
+    text-align: center;
+    margin: 100px auto 50px auto;
+}
